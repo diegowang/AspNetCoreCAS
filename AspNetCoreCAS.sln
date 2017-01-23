@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{889110BA-128C-4033-BA5B-2E6657032BF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E1C8DF3-096C-4090-89AC-6735D9BE81CA}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCoreCAS", "src\AspNetCoreCAS\AspNetCoreCAS.xproj", "{BD61E466-19DC-40CC-BD44-D7D999930A22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD61E466-19DC-40CC-BD44-D7D999930A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD61E466-19DC-40CC-BD44-D7D999930A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD61E466-19DC-40CC-BD44-D7D999930A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD61E466-19DC-40CC-BD44-D7D999930A22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD61E466-19DC-40CC-BD44-D7D999930A22} = {889110BA-128C-4033-BA5B-2E6657032BF0}
+	EndGlobalSection
+EndGlobal
