@@ -87,6 +87,17 @@ namespace AspNetCoreCAS.Controllers
             return View(model);
         }
 
+        // POST: /Account/LogOff
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> LogOff()
+        {
+            await _signInManager.SignOutAsync();
+            _logger.LogInformation(4, "User logged out.");
+            return RedirectToAction(nameof(HomeController.Index), "Home");
+        }
+
+
         // GET: /Account/Register
         [HttpGet]
         [AllowAnonymous]
